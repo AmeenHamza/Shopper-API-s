@@ -12,6 +12,7 @@ app.use('/api/user', require('./api/users/Router'))
 app.use('/api/product', require('./api/products/Router'))
 app.use('/api/brand', require('./api/brands/Router'))
 app.use('/api/category', require('./api/categories/Router'))
+app.use('/api/order', require('./api/orders/Router'))
 
 // --------- Simple Database Connection through mongoose() to MongoDb -------- //
 
